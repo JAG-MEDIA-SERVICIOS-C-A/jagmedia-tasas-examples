@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="assets/banner.png" alt="JAG-Media API" width="720">
-</p>
-
 <h1 align="center">JAG-Media API — Consumption Examples</h1>
 
 <p align="center">
