@@ -1,0 +1,13 @@
+{
+    "monto_original": 10.0,
+    "moneda_origen": "USD",
+    "moneda_destino": "VES",
+    "tasa_usada": 1001.594,
+    "tasa_eur": null,
+    "fuente": "binance_p2p",
+    "resultado": 10015.94,
+    "tasas_disponibles": {
+        "bcv": 889.26,
+        "binance_p2p": 1001.59
+    }
+}

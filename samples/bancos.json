@@ -1,0 +1,125 @@
+{
+    "total": 20,
+    "bancos": [
+        {
+            "id": 12,
+            "nombre": "100% Banco",
+            "codigo": "0156",
+            "website": null
+        },
+        {
+            "id": 16,
+            "nombre": "Bancamiga",
+            "codigo": "0172",
+            "website": null
+        },
+        {
+            "id": 7,
+            "nombre": "Bancaribe",
+            "codigo": "0114",
+            "website": null
+        },
+        {
+            "id": 15,
+            "nombre": "Banco Activo",
+            "codigo": "0171",
+            "website": null
+        },
+        {
+            "id": 18,
+            "nombre": "Banco Bicentenario del Pueblo",
+            "codigo": "0175",
+            "website": null
+        },
+        {
+            "id": 8,
+            "nombre": "Banco Caron\u00ed",
+            "codigo": "0128",
+            "website": null
+        },
+        {
+            "id": 14,
+            "nombre": "Banco del Tesoro",
+            "codigo": "0163",
+            "website": null
+        },
+        {
+            "id": 1,
+            "nombre": "Banco de Venezuela",
+            "codigo": "0102",
+            "website": null
+        },
+        {
+            "id": 19,
+            "nombre": "Banco Nacional de Cr\u00e9dito (BNC)",
+            "codigo": "0191",
+            "website": null
+        },
+        {
+            "id": 11,
+            "nombre": "Banco Plaza",
+            "codigo": "0138",
+            "website": null
+        },
+        {
+            "id": 23,
+            "nombre": "Bancrecer",
+            "codigo": "0168",
+            "website": null
+        },
+        {
+            "id": 9,
+            "nombre": "Banesco",
+            "codigo": "0134",
+            "website": null
+        },
+        {
+            "id": 22,
+            "nombre": "Bangente",
+            "codigo": "0146",
+            "website": null
+        },
+        {
+            "id": 17,
+            "nombre": "Banplus",
+            "codigo": "0174",
+            "website": null
+        },
+        {
+            "id": 13,
+            "nombre": "delSur",
+            "codigo": "0157",
+            "website": null
+        },
+        {
+            "id": 21,
+            "nombre": "Exterior",
+            "codigo": "0115",
+            "website": null
+        },
+        {
+            "id": 5,
+            "nombre": "Mercantil",
+            "codigo": "0105",
+            "website": null
+        },
+        {
+            "id": 6,
+            "nombre": "Provincial",
+            "codigo": "0108",
+            "website": null
+        },
+        {
+            "id": 10,
+            "nombre": "Sofitasa",
+            "codigo": "0137",
+            "website": null
+        },
+        {
+            "id": 4,
+            "nombre": "Venezolano de Cr\u00e9dito",
+            "codigo": "0104",
+            "website": null
+        }
+    ]
+}

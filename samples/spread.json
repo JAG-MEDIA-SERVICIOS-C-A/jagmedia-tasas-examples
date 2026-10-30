@@ -1,0 +1,19 @@
+{
+    "bcv": {
+        "tasa": 889.2553,
+        "fecha": "2026-10-30T06:01:49.961346"
+    },
+    "mercados": {
+        "binance_p2p": {
+            "tasa": 1001.594,
+            "diferencia": 112.34,
+            "porcentaje": 12.63,
+            "fecha": "2026-10-30T06:39:40.631214"
+        }
+    },
+    "spread_mayor": {
+        "mercado": "binance_p2p",
+        "porcentaje": 12.63
+    },
+    "fecha": "2026-10-30T05:40:14.104184"
+}

@@ -1,0 +1,14 @@
+{
+    "detail": [
+        {
+            "type": "float_parsing",
+            "loc": [
+                "query",
+                "monto"
+            ],
+            "msg": "Input should be a valid number, unable to parse string as a number",
+            "input": "abc",
+            "url": "https://errors.pydantic.dev/2.5/v/float_parsing"
+        }
+    ]
+}

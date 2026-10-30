@@ -1,0 +1,32 @@
+{
+    "api": "jagmedia_api",
+    "version": "v1",
+    "status": "operational",
+    "fuentes": {
+        "bcv": {
+            "estado": "stale",
+            "ultima_actualizacion": "2026-10-30T06:01:49.961346",
+            "edad_segundos": 2304,
+            "valor": 889.2553
+        },
+        "binance_spot": {
+            "estado": "ok",
+            "ultima_actualizacion": "2026-10-30T06:39:40.631214",
+            "edad_segundos": 33,
+            "valor": 78731.91
+        },
+        "binance_p2p": {
+            "estado": "ok",
+            "ultima_actualizacion": "2026-10-30T06:39:40.631214",
+            "edad_segundos": 33,
+            "valor": 1001.594
+        },
+        "paralelo": {
+            "estado": "ok",
+            "ultima_actualizacion": "2026-10-30T06:36:38.087296",
+            "edad_segundos": 216,
+            "valor": 999.314103
+        }
+    },
+    "timestamp": "2026-10-30T05:40:14.042536"
+}

@@ -1,0 +1,138 @@
+{
+    "pais": "VE",
+    "base": "USD",
+    "bcv": {
+        "USD": {
+            "compra": 889.2553,
+            "venta": 889.2553,
+            "promedio": 889.2553,
+            "fecha": "2026-10-30T06:01:49.961346",
+            "fuente": "BCV"
+        },
+        "EUR": {
+            "compra": 992.80018713,
+            "venta": 992.80018713,
+            "promedio": 992.80018713,
+            "fecha": "2026-10-30T06:01:49.961346",
+            "fuente": "BCV"
+        },
+        "CNY": {
+            "compra": 133.5117934,
+            "venta": 133.5117934,
+            "promedio": 133.5117934,
+            "fecha": "2026-10-30T06:01:49.961346",
+            "fuente": "BCV"
+        },
+        "TRY": {
+            "compra": 17.84483981,
+            "venta": 17.84483981,
+            "promedio": 17.84483981,
+            "fecha": "2026-10-30T06:01:49.961346",
+            "fuente": "BCV"
+        },
+        "RUB": {
+            "compra": 10.99880148,
+            "venta": 10.99880148,
+            "promedio": 10.99880148,
+            "fecha": "2026-10-30T06:01:49.961346",
+            "fuente": "BCV"
+        }
+    },
+    "binance_p2p": {
+        "compra": 1001.594,
+        "venta": 996.733,
+        "fecha": "2026-10-30T06:39:40.631214",
+        "fuente": "binance_p2p"
+    },
+    "okx_p2p": {},
+    "bybit_p2p": {},
+    "p2p_reference": {
+        "valor": 999.1635,
+        "metodo": "median_of_midpoints",
+        "descripcion": "Mediana de los puntos medios (midpoint) de cada exchange. Cada midpoint = (best_buy + best_sell) / 2 con filtros anti-spoofing.",
+        "fuentes_usadas": [
+            "binance"
+        ],
+        "cantidad_fuentes": 1,
+        "estado": "degraded"
+    },
+    "binance_spot": {
+        "BTC": {
+            "compra": 78731.91,
+            "venta": 78731.92,
+            "promedio": 78731.91,
+            "fecha": "2026-10-30T06:39:40.631214",
+            "fuente": "binance"
+        },
+        "ETH": {
+            "compra": 2249.1,
+            "venta": 2249.11,
+            "promedio": 2249.1,
+            "fecha": "2026-10-30T06:39:40.631214",
+            "fuente": "binance"
+        },
+        "BNB": {
+            "compra": 718.83,
+            "venta": 718.84,
+            "promedio": 718.85,
+            "fecha": "2026-10-30T06:39:40.631214",
+            "fuente": "binance"
+        }
+    },
+    "paralelo": {},
+    "bancos": {},
+    "external_references": {},
+    "metadata": {
+        "bcv": {
+            "status": "degraded",
+            "quality_score": 0.33,
+            "sources_used": 1,
+            "observed_at": "2026-10-30T06:01:49.961346",
+            "source_updated_at": null,
+            "fetched_at": "2026-10-30T06:01:49.961346"
+        },
+        "binance_p2p": {
+            "status": "healthy",
+            "quality_score": 1.0,
+            "sources_used": 10,
+            "observed_at": "2026-10-30T06:39:40.631214",
+            "source_updated_at": null,
+            "fetched_at": "2026-10-30T06:39:40.631214"
+        },
+        "okx_p2p": {
+            "status": "unavailable",
+            "quality_score": 0.0,
+            "sources_used": 0,
+            "observed_at": null,
+            "source_updated_at": null,
+            "fetched_at": null
+        },
+        "bybit_p2p": {
+            "status": "unavailable",
+            "quality_score": 0.0,
+            "sources_used": 0,
+            "observed_at": null,
+            "source_updated_at": null,
+            "fetched_at": null
+        },
+        "p2p_reference": {
+            "status": "degraded",
+            "quality_score": 0.33,
+            "sources_used": 1,
+            "observed_at": "2026-10-30T06:39:40.631214",
+            "source_updated_at": "2026-10-30T06:39:40.631214",
+            "fuentes_usadas": [
+                "binance"
+            ]
+        },
+        "paralelo": {
+            "status": "unavailable",
+            "quality_score": 0.0,
+            "sources_used": 0,
+            "observed_at": null,
+            "source_updated_at": null,
+            "fetched_at": null
+        }
+    },
+    "fetched_at": "2026-10-30T05:40:14.061211"
+}
