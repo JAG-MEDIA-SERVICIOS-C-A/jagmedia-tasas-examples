@@ -34,6 +34,10 @@ Ejemplos oficiales de integración con la API de tasas de cambio venezolanas.
 - [JavaScript](javascript/tasas.js) — `fetch` (Node 18+)
 - [PHP](php/tasas.php) — `cURL`
 - [cURL](curl/ejemplos.sh) — terminal
+- [Webhooks](webhooks/receptor.py) — verificación de firma HMAC
+- [Postman](postman/JAG-Media-Tasas.postman_collection.json) — colección importable
+- [Samples](samples/) — respuestas reales de la API sin registrarse
+- [Errores](ERRORS.md) — respuestas 401/403/422/429/503 documentadas
 
 ## Respuesta típica `GET /v1/tasas`
 

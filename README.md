@@ -35,7 +35,10 @@ Official integration examples for the Venezuelan exchange rates API.
 - [JavaScript](javascript/tasas.js) — `fetch` (Node 18+)
 - [PHP](php/tasas.php) — `cURL`
 - [cURL](curl/ejemplos.sh) — terminal
+- [Webhooks](webhooks/receptor.py) — HMAC signature verification (`X-Signature-256`)
 - [Postman](postman/JAG-Media-Tasas.postman_collection.json) — importable collection
+- [Samples](samples/) — real API responses, no signup needed
+- [Errors](ERRORS.md) — documented 401/403/422/429/503 responses
 
 ## Typical response `GET /v1/tasas`
 
