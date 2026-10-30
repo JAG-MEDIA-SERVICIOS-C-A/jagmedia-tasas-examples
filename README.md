@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![API](https://img.shields.io/badge/API-v1-0085B2)](https://api.jagmedia.com.ve/v1/estado)
 [![Docs](https://img.shields.io/badge/Docs-jagmedia.com.ve-292D3D)](https://jagmedia.com.ve/api-docs.php)
-[![🇻🇪 Español](https://img.shields.io/badge/Idioma-Español-yellow)](README.es.md)
+[![🇻🇪 Español](https://img.shields.io/badge/Idioma-Espanol-yellow)](README.es.md)
 
 Official integration examples for the Venezuelan exchange rates API.
 
