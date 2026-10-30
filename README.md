@@ -1,5 +1,10 @@
 # JAG-Media API — Ejemplos de Consumo
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![API](https://img.shields.io/badge/API-v1-0085B2)](https://api.jagmedia.com.ve/v1/estado)
+[![Docs](https://img.shields.io/badge/Docs-jagmedia.com.ve-292D3D)](https://jagmedia.com.ve/api-docs.php)
+
+
 Ejemplos oficiales de integración con la API de tasas de cambio venezolanas.
 
 **Base URL:** `https://api.jagmedia.com.ve`
