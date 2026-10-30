@@ -1,4 +1,8 @@
-<h1 align="center">JAG-Media API — Consumption Examples</h1>
+<p align="center">
+  <img src="assets/banner.png" alt="JAG-Media API de Tasas de Cambio — Venezuela">
+</p>
+
+<h1 align="center">Consumption Examples</h1>
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
