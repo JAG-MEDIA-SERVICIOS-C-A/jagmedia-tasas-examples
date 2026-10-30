@@ -1,9 +1,15 @@
-# JAG-Media API — Consumption Examples
+<p align="center">
+  <img src="assets/banner.png" alt="JAG-Media API" width="720">
+</p>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![API](https://img.shields.io/badge/API-v1-0085B2)](https://api.jagmedia.com.ve/v1/estado)
-[![Docs](https://img.shields.io/badge/Docs-jagmedia.com.ve-292D3D)](https://jagmedia.com.ve/api-docs.php)
-[![🇻🇪 Español](https://img.shields.io/badge/Idioma-Espanol-yellow)](README.es.md)
+<h1 align="center">JAG-Media API — Consumption Examples</h1>
+
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
+  <a href="https://api.jagmedia.com.ve/v1/estado"><img src="https://img.shields.io/badge/API-v1-0085B2" alt="API v1"></a>
+  <a href="https://jagmedia.com.ve/api-docs.php"><img src="https://img.shields.io/badge/Docs-jagmedia.com.ve-292D3D" alt="Docs"></a>
+  <a href="README.es.md"><img src="https://img.shields.io/badge/Idioma-Espanol-yellow" alt="Español"></a>
+</p>
 
 Official integration examples for the Venezuelan exchange rates API.
 
@@ -19,6 +25,32 @@ Official integration examples for the Venezuelan exchange rates API.
 | BCV official + P2P references + parallel | A mobile app — it's an API for systems |
 | Public anti-spoofing methodology | A guaranteed SLA — honest about what it delivers |
 | C2P BDV payments in VES | USD payments today (PayPal disabled) |
+
+## Quickstart — 30 seconds
+
+```bash
+pip install requests
+export JAGMEDIA_API_KEY="jmg_your_api_key"   # from jagmedia.com.ve/cuenta.php
+python python/tasas.py
+```
+
+## Architecture
+
+```mermaid
+flowchart LR
+    subgraph Fuentes["External Sources"]
+        BCV[BCV official]
+        P2P[Binance/OKX/Bybit P2P]
+        PAR[Parallel references]
+    end
+    subgraph JAG["JAG-Media"]
+        SC[Scrapers<br/>1-5 min]
+        DB[(PostgreSQL)]
+        API[FastAPI<br/>REST + auth]
+    end
+    C[Your app<br/>python · js · php]
+    BCV & P2P & PAR --> SC --> DB --> API -->|X-API-Key / JWT| C
+```
 
 ## Authentication
 
