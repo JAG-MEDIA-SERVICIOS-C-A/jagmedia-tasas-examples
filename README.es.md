@@ -11,6 +11,15 @@ Ejemplos oficiales de integración con la API de tasas de cambio venezolanas.
 **Documentación:** https://jagmedia.com.ve/api-docs.php
 **Crear cuenta:** https://jagmedia.com.ve/registro.php
 
+## Qué es — y qué NO es
+
+| Es | No es |
+|----|-------|
+| API de datos de tasas consolidadas | Un exchange — no compras ni vendes divisas |
+| BCV oficial + referencias P2P + paralelo | Una app móvil — es API para sistemas |
+| Metodología pública anti-spoofing | SLA garantizado — honesto sobre lo que entrega |
+| Pagos C2P BDV en bolívares | Pagos en dólares hoy (PayPal deshabilitado) |
+
 ## Autenticación
 
 | Método | Header | Para |

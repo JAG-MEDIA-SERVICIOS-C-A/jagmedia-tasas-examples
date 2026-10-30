@@ -11,6 +11,15 @@ Official integration examples for the Venezuelan exchange rates API.
 **Docs:** https://jagmedia.com.ve/api-docs.php
 **Sign up:** https://jagmedia.com.ve/registro.php
 
+## What it is — and is NOT
+
+| Is | Is NOT |
+|----|--------|
+| Consolidated exchange-rate data API | An exchange — you can't buy/sell currency |
+| BCV official + P2P references + parallel | A mobile app — it's an API for systems |
+| Public anti-spoofing methodology | A guaranteed SLA — honest about what it delivers |
+| C2P BDV payments in VES | USD payments today (PayPal disabled) |
+
 ## Authentication
 
 | Method | Header | Best for |
